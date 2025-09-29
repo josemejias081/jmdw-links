@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #111111;
+  width: 100%;
+  height: 100vh;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  font-size: 35px;
+  color: #fff;
+}
+
+.image-top {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.social-media {
+  margin: 10px 0;
+}
+
+.social-media .fa-brands {
+  font-size: 37px;
+  color: #fff;
+}
+
+.social-media .fa-tiktok {
+  font-size: 30px;
+  width: 32px;
+  height: 32px;
+  padding: 2px;
+  background: #fff;
+  color: #000;
+  border-radius: 6px;
+}
+
+.social-media .fa-brands:hover {
+  color: #fff;
+ opacity: .3;
+ scale: 1.1;
+ transition: all .3s ease-out;
+}
+
+.links-content {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 30px 10px;
+}
+
+a { 
+  text-decoration: none;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  background: #111111;
+  color: #fff;
+  border-radius: 50px;
+  border: solid 2px #9b51e0;
+  padding: 0 10px;
+  position: relative;
+}
+
+.btn:hover {
+  background: #9b51e0;
+  transition: all .3 ease-out;
+  transform: translate(1.02);
+}
+
+.btn .link-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: 0 10px 0;
+}
+
+.btn .link-text {
+  font-size: 21px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title { 
+  font-size: 27px;
+  color: #fff;
+}
+
+
+
+@media screen and (max-width: 720px){
+
+  figcaption {
+    font-size: 21px;
+  }
+
+  .image-top {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .btn {
+    height: 70px;
+  }
+
+  .btn .link-image {
+    width: 55px;
+    height: 55px;
+
+  }
+
+  .btn .link-text {
+    font-size: 17px;
+    margin: 0 0 0 10px;
+  }
+
+  .title {
+    font-size: 19px;
+  }
+
+  .video-container {
+    width: 80%;
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 360px){
+
+  figcaption {
+    font-size: 17px;
+  }
+
+  .image-top {
+    width: 85px;
+    height: 85px;
+  }
+  
+  .btn {
+    height: 60px;
+  }
+
+  .btn .link-image {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+
+  }
+
+  .btn .link-text {
+    font-size: 15px;
+  }
+
+  .title {
+    font-size: 14px;
+  }
+
+  .video-container {
+    width: 80%;
+    padding: 15px;
+  }
+}
