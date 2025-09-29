@@ -70,12 +70,13 @@ Si encuentras algún error o tienes una sugerencia de mejora, ¡siéntete libre 
 
 ## 📄 Licencia
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles (si tienes un archivo de licencia).
+Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE Aunque puedes ver como crearlo en **mi canal de YouTube** - [@josemejiasdesarrolloweb](https://youtu.be/EE1w4ueL4EU)
+
 
 -----
 
 ## 🧑‍💻 Contacto
 
-**Jose Mejias Desarrollo Web** - [@josemejiasdesarrolloweb](https://www.josemejiasdesarrolloweb.com/contact/)
+**Jose Mejias Desarrollo Web** - [@josemejiasdesarrolloweb.com](https://www.josemejiasdesarrolloweb.com/contact/)
 
 ¡Gracias por revisar este proyecto\!
